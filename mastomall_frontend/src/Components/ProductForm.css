@@ -1,0 +1,108 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .nav-icon {
+    max-width: 30px;       /* Adjust as needed */
+    height: 30px;      /* Adjust as needed */
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    flex: 1; /* Allow the logo to take up available space on the right */
+    margin: auto;
+    }
+
+    .nav-logos{
+      max-width: 30px;       /* Adjust as needed */
+      height: 30px;      /* Adjust as needed */
+      display: flex;
+      align-items: left;
+      justify-content: flex-end;
+      flex: 1; /* Allow the logo to take up available space on the right */
+      margin: auto;
+
+    }
+
+  .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8d788;
+    
+    }
+    .main-block.relative{
+      justify-content: center;
+    }
+
+  .imageshop{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    padding-top: -50px; 
+    margin: auto;
+  }
+  
+  h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #f8d788;
+    }
+    p {
+    margin: 0 0 5px;
+    }
+    .right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8d788;
+    width: 80%
+    }
+    form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #f8d788;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #f8d788; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+    button:hover {
+    background: #f8d788;
+    } 
+    @media (min-width: 568px) {
+    .main-block {
+    flex-direction: row;
+    }
+    .left-part, form {
+    width: 50%;
+    }
+    }
