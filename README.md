@@ -1,1 +1,2 @@
-# MastoMall
+
+# Mastodon-Mall
